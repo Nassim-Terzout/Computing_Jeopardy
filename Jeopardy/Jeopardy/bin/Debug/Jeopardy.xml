@@ -1,0 +1,336 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Jeopardy
+</name>
+</assembly>
+<members>
+<member name="T:Jeopardy.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources._0ae82f5b">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources._200w">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources._353360_canon_pixma_ip8720_wireless_inkjet_photo_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.bad9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Bill_Gates">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Bing_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.chalkboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.dell_u2715h_27_2560x1440_widescreen_led_monitor_1098888">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.dfdfdfdfdfdddwewwe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.donald_trump_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Ed_Snowden_355486">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.finalgood">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.finalgood1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__11_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__3_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__4_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__5_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__6_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__7_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__8_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.giphy__9_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.good9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.hhhtgyhghgh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Instrcutionsbackgood_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.insturcionts_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.jjrfgtfgfg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.k810_illuminated_keyboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.ljthis_wewewgfkvtvgf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.mark_zuckerberg_facebook_future">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.razer_blackwidow_2013_ultimate_edition_mechanical_gaming_keyboard_custom_pc_review_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Red_DiamondPattern">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.rtytrtrtr_tis_gfrete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.speakers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Stage_curtains">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.th">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.th4HF8Y5HR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.thIM3ZZ3B3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.thisvtvgf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Jeopardy.My.Resources.Resources.Untitled_1_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

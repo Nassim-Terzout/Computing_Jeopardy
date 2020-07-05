@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{776268CC-BA45-440E-961F-E1FCACA4D5BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Jeopardy.My.MyApplication</StartupObject>
+    <RootNamespace>Jeopardy</RootNamespace>
+    <AssemblyName>Jeopardy</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Jeopardy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Jeopardy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dailydouble.Designer.vb">
+      <DependentUpon>Dailydouble.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dailydouble.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dailydoubleq.Designer.vb">
+      <DependentUpon>Dailydoubleq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dailydoubleq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Endform.Designer.vb">
+      <DependentUpon>Endform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Endform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q1001form.Designer.vb">
+      <DependentUpon>q1001form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q1001form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Board.Designer.vb">
+      <DependentUpon>Board.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Board.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructions.Designer.vb">
+      <DependentUpon>Instructions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="q1002form.Designer.vb">
+      <DependentUpon>q1002form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q1002form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q1003form.Designer.vb">
+      <DependentUpon>q1003form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q1003form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q1004form.Designer.vb">
+      <DependentUpon>q1004form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q1004form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q2001form.Designer.vb">
+      <DependentUpon>q2001form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q2001form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q2002form.Designer.vb">
+      <DependentUpon>q2002form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q2002form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q2003form.Designer.vb">
+      <DependentUpon>q2003form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q2003form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q2004form.Designer.vb">
+      <DependentUpon>q2004form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q2004form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q3001form.Designer.vb">
+      <DependentUpon>q3001form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q3001form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q3002form.Designer.vb">
+      <DependentUpon>q3002form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q3002form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q3003form.Designer.vb">
+      <DependentUpon>q3003form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q3003form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q3004form.Designer.vb">
+      <DependentUpon>q3004form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q3004form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q4001form.Designer.vb">
+      <DependentUpon>q4001form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q4001form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q4002form.Designer.vb">
+      <DependentUpon>q4002form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q4002form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q4003form.Designer.vb">
+      <DependentUpon>q4003form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q4003form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="q4004form.Designer.vb">
+      <DependentUpon>q4004form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="q4004form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resultsq100.Designer.vb">
+      <DependentUpon>Resultsq100.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resultsq100.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dailydouble.resx">
+      <DependentUpon>Dailydouble.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dailydoubleq.resx">
+      <DependentUpon>Dailydoubleq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Endform.resx">
+      <DependentUpon>Endform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q1001form.resx">
+      <DependentUpon>q1001form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Board.resx">
+      <DependentUpon>Board.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructions.resx">
+      <DependentUpon>Instructions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q1002form.resx">
+      <DependentUpon>q1002form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q1003form.resx">
+      <DependentUpon>q1003form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q1004form.resx">
+      <DependentUpon>q1004form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q2001form.resx">
+      <DependentUpon>q2001form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q2002form.resx">
+      <DependentUpon>q2002form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q2003form.resx">
+      <DependentUpon>q2003form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q2004form.resx">
+      <DependentUpon>q2004form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q3001form.resx">
+      <DependentUpon>q3001form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q3002form.resx">
+      <DependentUpon>q3002form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q3003form.resx">
+      <DependentUpon>q3003form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q3004form.resx">
+      <DependentUpon>q3004form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q4001form.resx">
+      <DependentUpon>q4001form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q4002form.resx">
+      <DependentUpon>q4002form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q4003form.resx">
+      <DependentUpon>q4003form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="q4004form.resx">
+      <DependentUpon>q4004form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resultsq100.resx">
+      <DependentUpon>Resultsq100.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thisvtvgf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ljthis wewewgfkvtvgf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thIM3ZZ3B3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red_DiamondPattern.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rtytrtrtr tis gfrete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stage-curtains.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insturcionts copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instrcutionsbackgood copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th4HF8Y5HR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chalkboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0ae82f5b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bing-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hhhtgyhghgh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfdfdfdfdfdddwewwe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jjrfgtfgfg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\353360-canon-pixma-ip8720-wireless-inkjet-photo-printer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dell_u2715h_27_2560x1440_widescreen_led_monitor_1098888.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k810-illuminated-keyboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speakers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\razer-blackwidow-2013-ultimate-edition-mechanical-gaming-keyboard-custom-pc-review-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %283%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %282%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %286%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bill-Gates.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ed-Snowden-355486.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mark-zuckerberg-facebook-future.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donald-trump.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %289%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %2810%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %285%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %2811%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\200w.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\good11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %287%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %284%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy %288%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalgood.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalgood1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
